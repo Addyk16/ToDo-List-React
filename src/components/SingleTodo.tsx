@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Todo } from "../model";
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
-import { MdDone, MdOutlineCheckBoxOutlineBlank, MdOutlineCheckBox } from "react-icons/md";
-import { VscIssueReopened } from "react-icons/vsc";
+import { MdOutlineCheckBoxOutlineBlank, MdOutlineCheckBox } from "react-icons/md";
 import "./styles.css";
 
 interface Props {
